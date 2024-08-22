@@ -1,0 +1,67 @@
+.rewards-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+.rewards-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+.customer-rewards {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.total-points {
+    margin: 0px;
+    font-size: .9em;
+}
+
+.highlight-gold {
+    color:#fff;
+    font-size: 3.7em;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: -25px;
+}
+.monthly-summary {
+    background: #273340;
+    padding: 20px;
+}
+.monthly-summary  h4 {
+    background-color: #fff;
+    color: #171713;
+    margin: 0px;
+}
+.transaction-list {
+  margin: 0;;
+}
+.transaction-list p {
+    margin: 5px;
+}
+.rewards-sec {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2c830;
+    border-radius: 10px;
+}

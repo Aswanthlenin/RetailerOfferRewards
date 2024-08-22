@@ -1,0 +1,20 @@
+[
+   { "customerId":100, "date":"2024-08-16","transactionAmount":130},
+   { "customerId":101, "date":"2024-07-03","transactionAmount":110},
+   { "customerId":100, "date":"2024-08-13","transactionAmount":80},
+   { "customerId":101, "date":"2024-07-11","transactionAmount":150},
+   { "customerId":102, "date":"2024-07-19","transactionAmount":120},
+   { "customerId":101, "date":"2024-06-13","transactionAmount":200},
+   { "customerId":101, "date":"2024-08-22","transactionAmount":72},
+   { "customerId":102, "date":"2024-08-10","transactionAmount":160},
+   { "customerId":102, "date":"2024-06-08","transactionAmount":190},
+   { "customerId":100, "date":"2024-07-26","transactionAmount":140},
+   { "customerId":100, "date":"2024-06-08","transactionAmount":300},
+   { "customerId":100, "date":"2024-04-26","transactionAmount":180},
+   { "customerId":100, "date":"2024-03-26","transactionAmount":140},
+   { "customerId":102, "date":"2024-03-08","transactionAmount":90},
+   { "customerId":102, "date":"2024-04-08","transactionAmount":170},
+   { "customerId":101, "date":"2024-04-13","transactionAmount":120},
+   { "customerId":101, "date":"2024-03-23","transactionAmount":145}
+
+]
