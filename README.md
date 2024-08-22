@@ -16,6 +16,9 @@ This application Calculate the rewards points for customers based on therir tran
  -src/components/RewardsCalculator.css   - style for the rewards component
  -src/App.jsx  :  Main app component
  -src/main.jsx  : Entry point for the application
+
+![image](https://github.com/user-attachments/assets/0f306345-d67e-486e-bd77-5a367670381c)
+
  -src/index.css  : Global styles
 
 
