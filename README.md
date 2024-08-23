@@ -24,3 +24,8 @@ This application Calculate the rewards points for customers based on therir tran
 - Clone the repository
 - Run 'npm install' to install
 - Run ' npm run dev ' to start the server (vite build tool)
+
+
+##Screenshots
+![image](https://github.com/user-attachments/assets/c6bfaccb-0fb6-4872-8309-7e90c37c8622)
+
