@@ -107,7 +107,7 @@ const RewardsCalculator = () => {
                       ${transaction.transactionAmount.toFixed(2)} 
                       </td>
                       <td>
-                      {new Date(transaction.date).toLocaleDateString(
+                      {new Date(transaction.date).toLocaleDateString( 
                           "default",
                           { day: "numeric", month: "long", year: "numeric" }
                         )}
