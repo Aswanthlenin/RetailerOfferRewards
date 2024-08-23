@@ -80,8 +80,8 @@ const RewardsCalculator = () => {
             <div key={customerId} className="customer-rewards card">
               <h3>Customer : {customerId}</h3>
               <div className="rewards-sec">
-                <p className="total-points">Total Rewards Points</p>
-                <p className="highlight-gold">{totalPoints}</p>
+                <p className="rewards-heading">Total Rewards Points</p>
+                <p className="total-point">{totalPoints}</p>
               </div>
               <div className="monthly-summary">
                 <h4>Monthly Points:</h4>
@@ -93,21 +93,30 @@ const RewardsCalculator = () => {
               </div>
               <div className="transaction-list">
                 <h4>Transactions (Last 3 Months) :</h4>
-                {transactions.map((transaction, index) => (
-                  <div key={index} className="transaction-item">
-                    <p>
-                      {" "}
-                      ${transaction.transactionAmount.toFixed(2)} -{" "}
-                      <span>
-                        {" "}
-                        {new Date(transaction.date).toLocaleDateString(
+                <table className="transaction-table">
+                  <thead>
+                     <tr>
+                      <th>Amount</th>
+                      <th>Date</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                  {transactions.map((transaction, index) => (
+                    <tr key={index} className="transaction-items">
+                      <td>
+                      ${transaction.transactionAmount.toFixed(2)} 
+                      </td>
+                      <td>
+                      {new Date(transaction.date).toLocaleDateString(
                           "default",
                           { day: "numeric", month: "long", year: "numeric" }
                         )}
-                      </span>
-                    </p>
-                  </div>
-                ))}
+                      </td>
+                    </tr>
+                         ))}
+                  </tbody>
+                </table>
+     
               </div>
             </div>
           )
